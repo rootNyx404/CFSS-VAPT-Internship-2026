@@ -1,0 +1,218 @@
+# 🛡️ CFSS Internship 2026 - End-to-End VAPT Simulation
+
+![CFSS](https://img.shields.io/badge/CFSS-Internship%202026-blue)
+![VAPT](https://img.shields.io/badge/Domain-VAPT-red)
+![TryHackMe](https://img.shields.io/badge/Platform-TryHackMe-green)
+![Status](https://img.shields.io/badge/Status-Completed-success)
+![Security](https://img.shields.io/badge/Cyber-Security-orange)
+
+---
+
+## 🎯 Project Overview
+
+This repository contains the work completed as part of the **CFSS Global Internship Program 2026** under the project:
+
+### 🔍 The Vulnerability Report Card - End-to-End VAPT Simulation
+
+The project focuses on:
+
+✅ Reconnaissance  
+✅ Enumeration  
+✅ Vulnerability Research  
+✅ Vulnerability Validation  
+✅ Risk Assessment  
+✅ Professional Reporting
+
+---
+
+# 👨‍💻 Internship Information
+
+| Field | Details |
+|---------|---------|
+| Organization | CFSS (Cyber Security & Forensics Services) |
+| Program | CFSS Global Internship 2026 |
+| Domain | Ethical Hacking & Penetration Testing |
+| Platform | TryHackMe |
+| Target Machine | Blue Room |
+| Operating System | Parrot OS |
+
+---
+
+# 🛠️ Tools Used
+
+| Tool | Purpose |
+|---------|---------|
+| Nmap | Network Scanning |
+| Metasploit | Vulnerability Validation |
+| Searchsploit | Exploit Research |
+| SMB Enumeration | Information Gathering |
+| TryHackMe | Lab Environment |
+
+---
+
+# 🔄 Penetration Testing Methodology
+
+```text
+Reconnaissance
+      ↓
+Scanning
+      ↓
+Enumeration
+      ↓
+Vulnerability Research
+      ↓
+Validation
+      ↓
+Risk Assessment
+      ↓
+Reporting
+```
+
+---
+
+# 🌐 Open Ports Identified
+
+| Port | Service |
+|---------|---------|
+| 135 | MSRPC |
+| 139 | NetBIOS |
+| 445 | SMB |
+| 3389 | RDP |
+| 49152 | RPC |
+| 49153 | RPC |
+| 49154 | RPC |
+| 49160 | RPC |
+
+---
+
+# 🖥️ Target System Information
+
+| Property | Value |
+|---------|---------|
+| Hostname | JON-PC |
+| OS | Windows 7 Professional SP1 |
+| Architecture | x64 |
+| Workgroup | WORKGROUP |
+
+---
+
+# 🚨 Vulnerability Research
+
+### Identified Vulnerability
+
+🔴 **MS17-010 (EternalBlue)**
+
+Affected Service:
+
+```text
+TCP/445 - SMB
+```
+
+Research performed using:
+
+- Searchsploit
+- Metasploit
+- SMB Enumeration
+
+---
+
+# ✅ Vulnerability Validation
+
+Metasploit MS17-010 Scanner Result:
+
+```text
+[+] Host is likely VULNERABLE to MS17-010!
+Windows 7 Professional 7601 Service Pack 1 x64
+```
+
+### Risk Level
+
+🔴 Critical
+
+---
+
+# 📊 Risk Assessment
+
+| Vulnerability | Severity |
+|---------------|------------|
+| MS17-010 EternalBlue | 🔴 Critical |
+| SMB Exposure | 🟠 High |
+| Windows 7 Legacy System | 🟠 High |
+| RDP Exposure | 🟡 Medium |
+
+---
+
+# 🛡️ Recommendations
+
+✅ Apply latest Microsoft security patches
+
+✅ Disable SMBv1
+
+✅ Restrict SMB access using firewall rules
+
+✅ Restrict RDP access
+
+✅ Implement network segmentation
+
+✅ Perform regular vulnerability assessments
+
+✅ Enable continuous monitoring
+
+---
+
+# 📂 Repository Structure
+
+```text
+CFSS-VAPT-Internship-2026/
+│
+├── README.md
+├── VAPT_Report.pdf
+│
+└── Screenshots/
+    ├── Blue_Room_Completion.png
+    ├── Nmap_Scan.png
+    ├── SMB_OS_Discovery.png
+    ├── Searchsploit_MS17-010.png
+    ├── MS17-010_Vulnerability_Check.png
+    └── EternalBlue_Module_Search.png
+```
+
+---
+
+# 📸 Evidence Collected
+
+✅ Blue Room Completion
+
+✅ Nmap Scan Results
+
+✅ SMB OS Discovery
+
+✅ Searchsploit Research
+
+✅ MS17-010 Validation
+
+✅ EternalBlue Module Discovery
+
+---
+
+# ⚠️ Disclaimer
+
+This project was conducted strictly within an authorized educational laboratory environment provided by TryHackMe as part of the CFSS Global Internship Program 2026.
+
+The information in this repository is intended solely for educational, research, and defensive cybersecurity purposes.
+
+---
+
+# 👤 Author
+
+## Arup Halder
+
+🎓 CFSS Global Internship Program 2026
+
+🔐 Cyber Security Enthusiast
+
+🛡️ VAPT | Ethical Hacking | Network Security
+
+---
+
+⭐ If you found this project interesting, feel free to star the repository.
