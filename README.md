@@ -181,6 +181,193 @@ The assessment included:
 
 ---
 
+# 📖 Detailed Project Report
+
+## 🏢 Internship Information
+
+| Field              | Details                                                    |
+| ------------------ | ---------------------------------------------------------- |
+| Internship Program | CFSS Global Internship 2026                                |
+| Domain             | Ethical Hacking & Penetration Testing                      |
+| Project Name       | The Vulnerability Report Card – End-to-End VAPT Simulation |
+| Candidate          | Arup Halder                                                |
+| Platform           | TryHackMe                                                  |
+| Target Machine     | Blue                                                       |
+| Duration           | 4 Weeks                                                    |
+
+---
+
+# 🎯 Project Goal
+
+The primary objective of this project was to simulate a real-world Vulnerability Assessment and Penetration Testing (VAPT) engagement and understand how security professionals identify, analyze, and document security weaknesses.
+
+The assessment focused on:
+
+* Reconnaissance
+* Enumeration
+* Vulnerability Identification
+* Risk Analysis
+* Security Documentation
+
+---
+
+# 🔍 Assessment Methodology
+
+The project followed a standard penetration testing methodology:
+
+### Phase 1 – Reconnaissance
+
+Information gathering and target identification.
+
+### Phase 2 – Scanning
+
+Network scanning and service discovery using Nmap.
+
+### Phase 3 – Enumeration
+
+Enumeration of services, operating system details, and exposed resources.
+
+### Phase 4 – Vulnerability Research
+
+Researching publicly known vulnerabilities associated with discovered services.
+
+### Phase 5 – Reporting
+
+Documenting findings and providing remediation recommendations.
+
+---
+
+# 📊 Technical Findings
+
+## Open Ports
+
+| Port  | Service |
+| ----- | ------- |
+| 135   | MSRPC   |
+| 139   | NetBIOS |
+| 445   | SMB     |
+| 3389  | RDP     |
+| 49152 | RPC     |
+| 49153 | RPC     |
+| 49154 | RPC     |
+| 49160 | RPC     |
+
+---
+
+## Operating System Information
+
+| Attribute        | Value                      |
+| ---------------- | -------------------------- |
+| Hostname         | JON-PC                     |
+| Operating System | Windows 7 Professional SP1 |
+| Workgroup        | WORKGROUP                  |
+
+---
+
+# 🚨 Vulnerability Analysis
+
+## MS17-010 (EternalBlue)
+
+### Vulnerability Information
+
+| Attribute  | Value         |
+| ---------- | ------------- |
+| CVE        | CVE-2017-0144 |
+| Severity   | Critical      |
+| Service    | SMB           |
+| Port       | 445           |
+| Risk Level | High          |
+
+### Business Impact
+
+If exploited, this vulnerability may result in:
+
+* Unauthorized Access
+* Remote Code Execution
+* System Compromise
+* Lateral Movement
+* Service Disruption
+
+---
+
+# 📈 Risk Matrix
+
+| Metric       | Rating   |
+| ------------ | -------- |
+| Likelihood   | High     |
+| Impact       | High     |
+| Overall Risk | Critical |
+
+---
+
+# 🔐 Remediation Recommendations
+
+### Immediate Actions
+
+* Apply Microsoft Security Updates
+* Disable SMBv1
+* Restrict SMB Exposure
+* Enable Firewall Protection
+* Review Network Access Controls
+
+### Long-Term Actions
+
+* Continuous Security Monitoring
+* Regular Vulnerability Assessments
+* Patch Management Program
+* Security Awareness Training
+* Periodic Penetration Testing
+
+---
+
+# 🏆 Learning Outcomes
+
+During this project I gained practical experience in:
+
+* Network Reconnaissance
+* Port Scanning
+* Service Enumeration
+* Vulnerability Research
+* Risk Assessment
+* Security Reporting
+* Technical Documentation
+
+---
+
+# 📂 Evidence Collected
+
+### Week 1
+
+* Pentesting Fundamentals Completion
+
+### Week 2
+
+* Nmap Scan Results
+* SMB Enumeration Results
+
+### Week 3
+
+* Searchsploit Results
+* MS17-010 Vulnerability Verification
+* EternalBlue Module Research
+
+### Week 4
+
+* Blue Room Completion
+* Final Report Preparation
+
+---
+
+# 🎓 Conclusion
+
+This project successfully demonstrated the complete Vulnerability Assessment and Penetration Testing lifecycle within a controlled and authorized environment.
+
+The engagement improved practical knowledge of network security, vulnerability research, risk assessment, and professional cybersecurity reporting while reinforcing ethical hacking principles and industry-standard documentation practices.
+
+---
+
+
+
 # 🏆 Project Outcome
 
 ✅ Pentesting Fundamentals Completed
