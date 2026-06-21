@@ -3,28 +3,25 @@
 # 🚀 CFSS GLOBAL INTERNSHIP 2026
 # 🛡️ The Vulnerability Report Card – End-to-End VAPT Simulation
 
-<img src="https://readme-typing-svg.demolab.com?font=Orbitron&size=28&duration=3000&pause=1000&color=00FFAA&center=true&vCenter=true&width=900&lines=Ethical+Hacking+%7C+Penetration+Testing;Vulnerability+Assessment+%26+Risk+Analysis;Cybersecurity+Researcher;CFSS+Global+Internship+2026" />
-
+![Status](https://img.shields.io/badge/Status-Completed-success?style=for-the-badge)
 ![Cyber Security](https://img.shields.io/badge/CyberSecurity-Professional-blue?style=for-the-badge)
 ![Ethical Hacking](https://img.shields.io/badge/Ethical_Hacking-VAPT-red?style=for-the-badge)
-![TryHackMe](https://img.shields.io/badge/TryHackMe-Blue-green?style=for-the-badge)
-![Status](https://img.shields.io/badge/Status-Completed-success?style=for-the-badge)
 
 </div>
 
 ---
 
-# 🌟 Project Overview
+# 📋 Executive Summary
 
 This project was completed as part of the **CFSS Global Internship Program 2026**.
 
-The objective of this assessment was to perform a complete **Vulnerability Assessment and Penetration Testing (VAPT)** lifecycle in a controlled lab environment.
+The objective was to perform a complete **Vulnerability Assessment and Penetration Testing (VAPT)** lifecycle in a controlled and authorized lab environment using the TryHackMe Blue machine.
 
-The project covers:
+The assessment included:
 
 ✅ Reconnaissance
 
-✅ Service Enumeration
+✅ Enumeration
 
 ✅ Vulnerability Research
 
@@ -50,8 +47,6 @@ The project covers:
 
 # 🛠️ Technologies & Tools
 
-<div align="center">
-
 | Tool | Purpose |
 |--------|--------|
 | 🔍 Nmap | Network Scanning |
@@ -60,8 +55,6 @@ The project covers:
 | 🖥️ TryHackMe | Lab Environment |
 | 🐧 Kali Linux | Penetration Testing |
 | 🐦 Parrot OS | Security Operations |
-
-</div>
 
 ---
 
@@ -125,10 +118,6 @@ The project covers:
 
 # 🧠 Week 3 – Vulnerability Analysis
 
-## Vulnerability Research
-
-### Identified Vulnerability
-
 # 🚨 MS17-010 (EternalBlue)
 
 | Attribute | Value |
@@ -161,7 +150,7 @@ The project covers:
 
 # 🔐 Security Recommendations
 
-### Immediate Actions
+## Immediate Actions
 
 - Apply Microsoft Security Updates
 - Disable SMBv1
@@ -169,7 +158,7 @@ The project covers:
 - Enable Firewall Rules
 - Implement Network Segmentation
 
-### Long-Term Actions
+## Long-Term Actions
 
 - Regular Vulnerability Assessments
 - Continuous Security Monitoring
@@ -180,23 +169,15 @@ The project covers:
 
 # 📈 Skills Demonstrated
 
-```yaml
-Reconnaissance:
-  - Network Discovery
-  - Service Enumeration
-
-Assessment:
-  - Vulnerability Analysis
-  - Risk Evaluation
-
-Research:
-  - CVE Investigation
-  - Security Documentation
-
-Reporting:
-  - Professional Report Writing
-  - Technical Documentation
-```
+- Network Reconnaissance
+- Port Scanning
+- Service Enumeration
+- SMB Enumeration
+- Vulnerability Research
+- CVE Analysis
+- Risk Assessment
+- Technical Documentation
+- Professional Report Writing
 
 ---
 
@@ -222,6 +203,7 @@ CFSS-VAPT-Internship-2026/
 ├── Screenshots/
 ├── Report/
 ├── README.md
+└── Assets/
 ```
 
 ---
@@ -230,19 +212,17 @@ CFSS-VAPT-Internship-2026/
 
 ## Arup Halder
 
-Cybersecurity Researcher | Ethical Hacker | Security Enthusiast
+Cybersecurity Researcher | Ethical Hacking Enthusiast | Security Learner
 
-### Connect With Me
+### GitHub Repository
 
-- 💼 LinkedIn
-- 🐙 GitHub
-- 🌐 Portfolio Website
+https://github.com/rootNyx404/CFSS-VAPT-Internship-2026
 
 ---
 
 # ⚠️ Disclaimer
 
-This project was conducted strictly in an authorized training environment provided for educational purposes.
+This project was conducted strictly in an authorized training environment for educational purposes.
 
 No unauthorized systems were targeted.
 
@@ -250,10 +230,10 @@ No unauthorized systems were targeted.
 
 <div align="center">
 
-# ⭐ If you found this repository useful, consider giving it a Star!
+# ⭐ PROJECT COMPLETED SUCCESSFULLY
 
 ### 🛡️ Learn • Secure • Protect
 
-<img src="https://readme-typing-svg.demolab.com?font=Orbitron&size=24&duration=2500&pause=1000&color=00FFAA&center=true&vCenter=true&width=800&lines=Cybersecurity+is+not+a+Product;It+is+a+Process;Stay+Secure+Stay+Ethical" />
+### Cybersecurity is not a product. It is a process.
 
 </div>
