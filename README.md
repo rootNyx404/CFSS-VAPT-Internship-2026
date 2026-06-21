@@ -1,69 +1,97 @@
-# 🛡️ CFSS Internship 2026 - End-to-End VAPT Simulation
+<div align="center">
 
-![CFSS](https://img.shields.io/badge/CFSS-Internship%202026-blue)
-![VAPT](https://img.shields.io/badge/Domain-VAPT-red)
-![TryHackMe](https://img.shields.io/badge/Platform-TryHackMe-green)
-![Status](https://img.shields.io/badge/Status-Completed-brightgreen)
+# 🚀 CFSS GLOBAL INTERNSHIP 2026
+# 🛡️ The Vulnerability Report Card – End-to-End VAPT Simulation
 
----
+<img src="https://readme-typing-svg.demolab.com?font=Orbitron&size=28&duration=3000&pause=1000&color=00FFAA&center=true&vCenter=true&width=900&lines=Ethical+Hacking+%7C+Penetration+Testing;Vulnerability+Assessment+%26+Risk+Analysis;Cybersecurity+Researcher;CFSS+Global+Internship+2026" />
 
-## 🎯 Project Overview
+![Cyber Security](https://img.shields.io/badge/CyberSecurity-Professional-blue?style=for-the-badge)
+![Ethical Hacking](https://img.shields.io/badge/Ethical_Hacking-VAPT-red?style=for-the-badge)
+![TryHackMe](https://img.shields.io/badge/TryHackMe-Blue-green?style=for-the-badge)
+![Status](https://img.shields.io/badge/Status-Completed-success?style=for-the-badge)
 
-This repository contains my work completed as part of the **CFSS Global Internship Program 2026**.
-
-### Project Title
-**The Vulnerability Report Card – End-to-End VAPT Simulation**
-
-The objective of this project was to perform a structured Vulnerability Assessment and Penetration Testing (VAPT) exercise in a controlled lab environment using TryHackMe.
+</div>
 
 ---
 
-## 👨‍💻 Internship Details
+# 🌟 Project Overview
 
-| Field | Details |
-|---------|---------|
-| Organization | CFSS (Cyber Security & Forensics Services) |
-| Program | CFSS Global Internship 2026 |
-| Domain | Ethical Hacking & Penetration Testing |
-| Platform | TryHackMe |
-| Target Machine | Blue |
-| Operating System | Parrot Security OS |
+This project was completed as part of the **CFSS Global Internship Program 2026**.
 
----
+The objective of this assessment was to perform a complete **Vulnerability Assessment and Penetration Testing (VAPT)** lifecycle in a controlled lab environment.
 
-## 🛠️ Tools Used
+The project covers:
 
-- Nmap
-- Metasploit Framework
-- Searchsploit
-- SMB Enumeration
-- TryHackMe
-- Parrot Security OS
+✅ Reconnaissance
+
+✅ Service Enumeration
+
+✅ Vulnerability Research
+
+✅ Risk Assessment
+
+✅ Security Analysis
+
+✅ Professional Reporting
 
 ---
 
-## 🔄 VAPT Methodology
+# 🎯 Project Objectives
 
-```text
-Reconnaissance
-      ↓
-Scanning
-      ↓
-Enumeration
-      ↓
-Vulnerability Research
-      ↓
-Validation
-      ↓
-Risk Assessment
-      ↓
-Reporting
-```
+- Understand VAPT Methodologies
+- Perform Network Reconnaissance
+- Conduct Service Enumeration
+- Identify Security Weaknesses
+- Research Known Vulnerabilities
+- Analyze Security Risks
+- Prepare Professional Reports
 
-## 🌐 Open Ports Discovered
+---
+
+# 🛠️ Technologies & Tools
+
+<div align="center">
+
+| Tool | Purpose |
+|--------|--------|
+| 🔍 Nmap | Network Scanning |
+| 🛡️ Searchsploit | Vulnerability Research |
+| ⚔️ Metasploit | Security Validation |
+| 🖥️ TryHackMe | Lab Environment |
+| 🐧 Kali Linux | Penetration Testing |
+| 🐦 Parrot OS | Security Operations |
+
+</div>
+
+---
+
+# 📚 Week 1 – Methodology & Environment Setup
+
+## Pentesting Fundamentals
+
+### Topics Covered
+
+- What is Penetration Testing
+- Penetration Testing Ethics
+- Pentesting Methodologies
+- Black Box Testing
+- White Box Testing
+- Grey Box Testing
+
+### Achievement
+
+✅ Completed Pentesting Fundamentals Room
+
+---
+
+# 🔎 Week 2 – Vulnerability Research & Scanning
+
+## Network Reconnaissance
+
+### Open Ports Identified
 
 | Port | Service |
-|------|----------|
+|--------|--------|
 | 135 | MSRPC |
 | 139 | NetBIOS |
 | 445 | SMB |
@@ -73,123 +101,159 @@ Reporting
 | 49154 | RPC |
 | 49160 | RPC |
 
+### Findings
+
+- SMB Service Exposed
+- Remote Desktop Service Available
+- Multiple RPC Services Running
+- Windows Environment Detected
+
 ---
 
-## 🖥️ Target Information
+# 🖥️ SMB Enumeration
 
-| Property | Value |
-|-----------|--------|
+### Target Information
+
+| Item | Value |
+|--------|--------|
 | Hostname | JON-PC |
 | Operating System | Windows 7 Professional SP1 |
-| Architecture | x64 |
 | Workgroup | WORKGROUP |
+| Service | SMB |
 
 ---
 
-## 🔍 Vulnerability Research
+# 🧠 Week 3 – Vulnerability Analysis
+
+## Vulnerability Research
 
 ### Identified Vulnerability
 
-**MS17-010 (EternalBlue)**
+# 🚨 MS17-010 (EternalBlue)
 
-Affected Service:
+| Attribute | Value |
+|------------|------------|
+| CVE | CVE-2017-0144 |
+| Severity | Critical |
+| Risk Level | High |
+| Service | SMB |
+| Port | 445 |
 
-```text
-TCP 445 - SMB
+### Risk Impact
+
+- Unauthorized Access
+- Remote Code Execution
+- System Compromise
+- Lateral Movement
+- Network Propagation
+
+---
+
+# 📊 Risk Assessment
+
+| Metric | Rating |
+|------------|------------|
+| Likelihood | High |
+| Impact | High |
+| Overall Risk | Critical |
+
+---
+
+# 🔐 Security Recommendations
+
+### Immediate Actions
+
+- Apply Microsoft Security Updates
+- Disable SMBv1
+- Restrict SMB Exposure
+- Enable Firewall Rules
+- Implement Network Segmentation
+
+### Long-Term Actions
+
+- Regular Vulnerability Assessments
+- Continuous Security Monitoring
+- Patch Management Program
+- Security Awareness Training
+
+---
+
+# 📈 Skills Demonstrated
+
+```yaml
+Reconnaissance:
+  - Network Discovery
+  - Service Enumeration
+
+Assessment:
+  - Vulnerability Analysis
+  - Risk Evaluation
+
+Research:
+  - CVE Investigation
+  - Security Documentation
+
+Reporting:
+  - Professional Report Writing
+  - Technical Documentation
 ```
 
-Research was performed using:
+---
 
-- Searchsploit
-- Metasploit
-- SMB Enumeration
+# 🏆 Project Outcome
+
+✅ Pentesting Fundamentals Completed
+
+✅ Blue Room Completed
+
+✅ Vulnerability Research Conducted
+
+✅ Professional VAPT Report Prepared
+
+✅ GitHub Documentation Completed
 
 ---
 
-## ✅ Vulnerability Validation
+# 📂 Repository Structure
 
-Metasploit vulnerability scanner results:
-
-```text
-[+] Host is likely VULNERABLE to MS17-010!
-Windows 7 Professional 7601 Service Pack 1 x64
-```
-
-### Risk Level
-
-🔴 Critical
-
----
-
-## 📊 Risk Assessment
-
-| Vulnerability | Severity |
-|---------------|----------|
-| MS17-010 EternalBlue | 🔴 Critical |
-| SMB Exposure | 🟠 High |
-| Windows 7 Legacy System | 🟠 High |
-| Exposed RDP Service | 🟡 Medium |
-
----
-
-## 🛡️ Recommendations
-
-- Apply Microsoft security patches immediately
-- Disable SMBv1 where possible
-- Restrict SMB access through firewall rules
-- Restrict Remote Desktop access
-- Implement network segmentation
-- Conduct regular vulnerability assessments
-- Enable continuous security monitoring
-
----
-
-## 📂 Repository Structure
-
-```text
+```bash
 CFSS-VAPT-Internship-2026/
 │
+├── Screenshots/
+├── Report/
 ├── README.md
-├── VAPT_Report.pdf
-│
-└── Screenshots/
-    ├── Blue_Room_Completion.png
-    ├── Nmap_Scan.png
-    ├── SMB_OS_Discovery.png
-    ├── Searchsploit_MS17-010.png
-    ├── MS17-010_Vulnerability_Check.png
-    └── EternalBlue_Module_Search.png
 ```
 
 ---
 
-## 📸 Evidence Included
+# 👨‍💻 Author
 
-- ✅ Blue Room Completion
-- ✅ Nmap Scan Results
-- ✅ SMB OS Discovery
-- ✅ Searchsploit Research
-- ✅ MS17-010 Validation
-- ✅ EternalBlue Module Discovery
+## Arup Halder
 
----
+Cybersecurity Researcher | Ethical Hacker | Security Enthusiast
 
-## ⚠️ Disclaimer
+### Connect With Me
 
-This project was conducted strictly within an authorized educational environment provided by TryHackMe as part of the CFSS Global Internship Program 2026.
-
-The information contained in this repository is intended solely for educational, research, and defensive cybersecurity purposes.
+- 💼 LinkedIn
+- 🐙 GitHub
+- 🌐 Portfolio Website
 
 ---
 
-## 👤 Author
+# ⚠️ Disclaimer
 
-**Arup Halder**
+This project was conducted strictly in an authorized training environment provided for educational purposes.
 
-CFSS Global Internship Program 2026
-
-Cyber Security | VAPT | Ethical Hacking | Network Security
+No unauthorized systems were targeted.
 
 ---
 
-⭐ Thank you for visiting this repository.
+<div align="center">
+
+# ⭐ If you found this repository useful, consider giving it a Star!
+
+### 🛡️ Learn • Secure • Protect
+
+<img src="https://readme-typing-svg.demolab.com?font=Orbitron&size=24&duration=2500&pause=1000&color=00FFAA&center=true&vCenter=true&width=800&lines=Cybersecurity+is+not+a+Product;It+is+a+Process;Stay+Secure+Stay+Ethical" />
+
+</div>
